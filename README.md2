@@ -1,0 +1,2 @@
+THE static member are called class level members.
+To access the class level members or static members we should use class_name and dot(.) operator.
