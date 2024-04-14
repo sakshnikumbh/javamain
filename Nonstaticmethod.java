@@ -1,4 +1,4 @@
-class Staticmethod
+class Nonstaticmethod
 {
     private int num1;
     private int num2;
@@ -14,7 +14,7 @@ class Staticmethod
     }
     public static void main(String [] x)
     {
-        Staticmethod method=new Staticmethod();
+        Nonstaticmethod method=new Nonstaticmethod();
         method.printRecord(10, 20);
         method.displayRecord();
 
