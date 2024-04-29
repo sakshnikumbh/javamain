@@ -7,15 +7,15 @@ public class Thisreference {
 
     public void acceptRecord()
     {
-        try(Scanner scanner =new Scanner(System.in))
-        {
+        Scanner scanner =new Scanner(System.in);
+        
            System.out.println("Enter the day");
            this.day=scanner.nextInt();
            System.out.println("Enter the month");
            this.month=scanner.nextInt();
            System.out.println("Enter the year");
             this.year=scanner.nextInt();
-        }
+        
  }
 
     public void printRecord()
