@@ -26,7 +26,14 @@ public class Thisreference {
     public static void main(String... x)
     {
        Thisreference this1=new Thisreference();
+       Thisreference this2=new Thisreference();
+       Thisreference this3=new Thisreference();
        this1.acceptRecord();
+       this2.acceptRecord();
+       this3.acceptRecord();
+
        this1.printRecord();
+       this2.printRecord();
+       this2.printRecord();
     }
 }
